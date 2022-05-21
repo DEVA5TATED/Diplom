@@ -1,0 +1,17 @@
+﻿<Page x:Class="Diplomalex.Pages.Theory.TheoryPage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplomalex.Pages.Theory"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TheoryPage2">
+
+    <Grid>
+        <Button x:Name="back_btn" Content="Назад" HorizontalAlignment="Left" Margin="37,303,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Back_btn_Click"/>
+        <Button x:Name="next_btn" Content="Вперед" HorizontalAlignment="Left" Margin="659,303,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Next_btn_Click"/>
+        <Label Content="Label222" HorizontalAlignment="Left" Margin="281,152,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

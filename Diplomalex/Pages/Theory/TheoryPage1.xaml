@@ -1,0 +1,18 @@
+﻿<Page x:Class="Diplomalex.Pages.Theory.TheoryPage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplomalex.Pages.Theory"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TheoryPage1">
+
+    <Grid>
+        <Button x:Name="back_btn" Content="←" HorizontalAlignment="Left" Margin="352,352,0,0" VerticalAlignment="Top" Width="41" Height="26" Click="Back_btn_Click"/>
+        <Button x:Name="next_btn" Content="→" HorizontalAlignment="Left" Margin="393,352,0,0" VerticalAlignment="Top" Width="41" Height="26" Click="Next_btn_Click"/>
+        <ScrollViewer Height="347"  Margin="0,0,10,0" VerticalAlignment="Top" >
+            <TextBlock x:Name="lblPDF_Output"/>
+        </ScrollViewer>
+    </Grid>
+</Page>

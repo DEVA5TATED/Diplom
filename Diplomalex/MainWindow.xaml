@@ -1,0 +1,27 @@
+﻿<Window x:Class="Diplomalex.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplomalex"
+        mc:Ignorable="d"
+        Title="Главное окно" Height="450" Width="800">
+    <Grid>
+        <TabControl x:Name="tab_menu" Margin="0,0,-0.4,0">
+            <TabItem Header="Теория">
+                <Grid Background="#FFE5E5E5">
+                    <Frame x:Name="box" Margin="0,0,0,0.2" NavigationUIVisibility="Hidden" Source="/Diplomalex;component/Pages/Theory/TheoryPage1.xaml"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Практика">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Тесты">
+                <Grid Background="#FFE5E5E5">
+                    <Frame x:Name="box3" Margin="0,0,0,0.2" Height="391" VerticalAlignment="Bottom" Source="/Diplomalex;component/Pages/Test/TestPage1.xaml" NavigationUIVisibility="Hidden"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
