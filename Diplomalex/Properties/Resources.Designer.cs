@@ -63,9 +63,9 @@ namespace Diplomalex.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
-        internal static byte[] test {
+        internal static byte[] t1 {
             get {
-                object obj = ResourceManager.GetObject("test", resourceCulture);
+                object obj = ResourceManager.GetObject("t1", resourceCulture);
                 return ((byte[])(obj));
             }
         }

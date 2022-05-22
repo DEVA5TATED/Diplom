@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Diplomalex"
         mc:Ignorable="d"
-        Title="Главное окно" Height="450" Width="800">
+        Title="Главное окно" Height="450" Width="800" MaxHeight="450" MinHeight="450" MaxWidth="800" MinWidth="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <TabControl x:Name="tab_menu" Margin="0,0,-0.4,0">
             <TabItem Header="Теория">
@@ -14,7 +14,9 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Практика">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Frame x:Name="box2" Source="/Diplomalex;component/Pages/Practice/PracticePage.xaml" NavigationUIVisibility="Hidden"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Тесты">
                 <Grid Background="#FFE5E5E5">

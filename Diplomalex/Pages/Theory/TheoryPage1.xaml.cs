@@ -26,7 +26,7 @@ namespace Diplomalex.Pages.Theory
         public TheoryPage1()
         {
             InitializeComponent();
-            String file = "../../Resources/test.pdf";
+            String file = "../../Resources/t1.pdf";
 
             PdfReader pdf_Reader = new PdfReader(file);
             String sText = "";
@@ -35,11 +35,14 @@ namespace Diplomalex.Pages.Theory
 
             {
 
-                sText = sText + PdfTextExtractor.GetTextFromPage(pdf_Reader, i);
+                sText += PdfTextExtractor.GetTextFromPage(pdf_Reader, i);
+                
 
             }
 
             lblPDF_Output.Text = sText;
+            
+
         }
 
         private void Next_btn_Click(object sender, RoutedEventArgs e)

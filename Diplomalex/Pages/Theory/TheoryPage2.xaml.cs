@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.parser;
+
 namespace Diplomalex.Pages.Theory
 {
     /// <summary>
@@ -23,11 +26,28 @@ namespace Diplomalex.Pages.Theory
         public TheoryPage2()
         {
             InitializeComponent();
-        }
+
+            String file = "../../Resources/t2.pdf";
+
+            PdfReader pdf_Reader = new PdfReader(file);
+            String sText = "";
+
+            for (int i = 1; i <= pdf_Reader.NumberOfPages; i++)
+
+            {
+
+                sText += PdfTextExtractor.GetTextFromPage(pdf_Reader, i);
+
+
+            }
+
+            lblPDF_Output.Text = sText;
+    }
 
         private void Next_btn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("В разработке", "Упс");
+            MainWindow mainWindow = Window.GetWindow(this) as MainWindow;
+            mainWindow.box.Navigate(new TheoryPage3());
         }
 
         private void Back_btn_Click(object sender, RoutedEventArgs e)

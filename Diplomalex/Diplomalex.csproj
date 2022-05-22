@@ -88,7 +88,99 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Theory\TheoryPage10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Theory\TheoryPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage25.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Theory\TheoryPage9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,8 +198,77 @@
     <Compile Include="Pages\Theory\TheoryPage1.xaml.cs">
       <DependentUpon>TheoryPage1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Theory\TheoryPage10.xaml.cs">
+      <DependentUpon>TheoryPage10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage11.xaml.cs">
+      <DependentUpon>TheoryPage11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage12.xaml.cs">
+      <DependentUpon>TheoryPage12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage13.xaml.cs">
+      <DependentUpon>TheoryPage13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage14.xaml.cs">
+      <DependentUpon>TheoryPage14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage15.xaml.cs">
+      <DependentUpon>TheoryPage15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage16.xaml.cs">
+      <DependentUpon>TheoryPage16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage17.xaml.cs">
+      <DependentUpon>TheoryPage17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage18.xaml.cs">
+      <DependentUpon>TheoryPage18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage19.xaml.cs">
+      <DependentUpon>TheoryPage19.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Theory\TheoryPage2.xaml.cs">
       <DependentUpon>TheoryPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage20.xaml.cs">
+      <DependentUpon>TheoryPage20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage21.xaml.cs">
+      <DependentUpon>TheoryPage21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage22.xaml.cs">
+      <DependentUpon>TheoryPage22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage23.xaml.cs">
+      <DependentUpon>TheoryPage23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage24.xaml.cs">
+      <DependentUpon>TheoryPage24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage25.xaml.cs">
+      <DependentUpon>TheoryPage25.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage3.xaml.cs">
+      <DependentUpon>TheoryPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage4.xaml.cs">
+      <DependentUpon>TheoryPage4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage5.xaml.cs">
+      <DependentUpon>TheoryPage5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage6.xaml.cs">
+      <DependentUpon>TheoryPage6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage7.xaml.cs">
+      <DependentUpon>TheoryPage7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage8.xaml.cs">
+      <DependentUpon>TheoryPage8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Theory\TheoryPage9.xaml.cs">
+      <DependentUpon>TheoryPage9.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -131,7 +292,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\test.pdf" />
+    <None Include="Resources\t1.pdf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
